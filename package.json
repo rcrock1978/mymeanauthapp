@@ -1,0 +1,22 @@
+{
+  "name": "meanauthapp",
+  "version": "1.0.0",
+  "description": "mean stack authentication",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "author": "raymund.c.caringal@hotmail.com",
+  "license": "ISC"
+}
